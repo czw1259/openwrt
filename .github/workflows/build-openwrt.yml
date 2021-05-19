@@ -37,7 +37,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [Project_x86_64]
+        target: [Project_nanopi_R2S]
 
     steps:
     - name: 准备结束
